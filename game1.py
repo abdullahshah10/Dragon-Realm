@@ -40,6 +40,12 @@ if playAgain=="yes" or playAgain=="y":
     caveNumber = chooseCave()
     checkCave(caveNumber)
 elif playAgain == "no" or playAgain == "n":
-    print("Game", time.sleep(1), ".", time.sleep(1), ".", time.sleep(1), ".")
-    print("Over!")
-
+    print("GAME", end=" "),
+    time.sleep(1)
+    print(".", end=" ")
+    time.sleep(1) 
+    print(".",end=" ")
+    time.sleep(1)
+    print(".",end=" ")
+    time.sleep(1)
+    print("OVER!")
